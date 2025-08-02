@@ -1,0 +1,24 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CYBERCONQUEROR/AGENT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CYBERCONQUEROR/AGENT/issues"
+  },
+  "homepage": "https://github.com/CYBERCONQUEROR/AGENT#readme",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.12.0",
+    "readline-sync": "^1.4.10"
+  }
+}
