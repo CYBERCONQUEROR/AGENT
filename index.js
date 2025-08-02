@@ -90,7 +90,8 @@ async function runAgent(userProblem) {
 
 
     if (response.functionCalls&&response.functionCalls.length > 0) {
-        const functionCall = response.functionCalls[0];
+        console.log(response.functionCalls[0]);
+        // const functionCall = response.functionCalls[0];
         const {name,args} =response.functionCalls[0];
         const tool = availableTools[name];
         const result = await tool(args);
